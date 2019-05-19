@@ -851,7 +851,7 @@ static char* set_pool_algorithm(const char *arg)
 static char* set_pool_backup(const char *arg)
 {
     struct pool *pool = get_current_pool();
-    pool->backup = TRUE;
+    pool->backup = 1;
     return (NULL);
 }
 
