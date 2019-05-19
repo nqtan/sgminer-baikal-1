@@ -3,7 +3,7 @@
 m4_define([v_maj], [5])
 m4_define([v_min], [6])
 m4_define([v_mic], [2])
-m4_define([v_rev], [BK_cod3gen_MOD])
+m4_define([v_rev], [BK_MOD])
 ##--##--##--##--##--##--##--##--##--##--##--##--##--##--##--##--##
 m4_ifdef([v_rev], [m4_define([v_ver], [v_maj.v_min.v_mic-v_rev])], [m4_define([v_ver], [v_maj.v_min.v_mic])])
 m4_define([lt_rev], m4_eval(v_maj + v_min))
@@ -12,7 +12,7 @@ m4_define([lt_age], v_min)
 ##--##--##--##--##--##--##--##--##--##--##--##--##--##--##--##--##
 ##--##--##--##--##--##--##--##--##--##--##--##--##--##--##--##--##
 
-AC_INIT([sgminer], [v_ver], [really@not.net], [sgminer], [https://github.com/cod3gen/sgminer-baikal])
+AC_INIT([sgminer], [v_ver], [really@not.net], [sgminer], [https://github.com/nqtan/sgminer-baikal-1])
 
 AC_PREREQ(2.59)
 AC_CANONICAL_SYSTEM
