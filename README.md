@@ -1,6 +1,6 @@
 ﻿# sgminer-baikal
 Rebuild of Baikal`s SG Miner for Giant X10 / N
-
+- original from cod3gen: https://github.com/cod3gen/sgminer-baikal
 - This edition is changed by tboy32c. With tboy32c custom firmware, you can now mine Grøestlcoin on x10's. Custom firmware can be found here: https://drive.google.com/open?id=1jqSKB3G-nKtHLF3dfPGalSgNLOiHAMBf
 
 Brought to you by cod3gen - Make sure you use my mining pool https://www.powermining.pw :-D
@@ -35,7 +35,7 @@ Depending on which miner you have, you need to edit the file "driver-baikal.h" a
 - use SSH and log in as root user to your miner, default password is baikal.
 - cd ~
 - sudo apt-get install git
-- git clone https://github.com/cod3gen/sgminer-baikal.git
+- git clone https://github.com/nqtan/sgminer-baikal-1.git
 - cd sgminer-baikal
 - nano driver-baikal.h      DO CHANGES AS ABOVE. If you have Giant N, no need to do changes.
 - autoreconf -fi && ./configure && make
